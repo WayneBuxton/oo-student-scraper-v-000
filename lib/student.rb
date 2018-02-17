@@ -14,9 +14,7 @@ class Student
     end
 
   def add_student_attributes(attributes_hash)
-    attributes_hash.each { |attributes| attributes[1]}
-    binding.pry
-  }
+    attributes_hash.each { |attributes| attributes[1] }
   end
 
   def self.all
